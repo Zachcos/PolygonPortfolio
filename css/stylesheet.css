@@ -105,7 +105,23 @@ HEADER STYLES
     color: #ffffff;
     left: 82px;
     position: absolute;
-    top: 44px; }
+    top: 44px;
+    font-size: 4.25rem; }
+  .header button {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 7px;
+    border: none;
+    color: #2e2f31;
+    font-family: "bryant", Arial, sans-serif;
+    font-size: 1.25rem;
+    height: 50px;
+    letter-spacing: 2px;
+    position: absolute;
+    right: 82px;
+    text-decoration: none;
+    text-transform: uppercase;
+    top: 44px;
+    width: 220px; }
   .header h1 {
     color: white;
     font-family: "bryant", Arial, sans-serif;
