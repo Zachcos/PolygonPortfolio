@@ -68,20 +68,24 @@ UNIVERSAL STYLES
     height: 100%;
     width: 100%;
     margin: 0 auto; }
-    #full-wrapper #container .header {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      background: #2e2f31; }
-      #full-wrapper #container .header::after {
-        position: absolute;
-        width: 100%;
-        height: 200px;
-        content: '';
-        top: 80vh;
-        background: inherit;
-        transform-origin: top right;
-        transform: skewY(-6deg); }
+
+/* --------------------------
+HEADER STYLES
+-------------------------- */
+.header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #2e2f31; }
+  .header::after {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    content: '';
+    top: 80vh;
+    background: inherit;
+    transform-origin: top right;
+    transform: skewY(-6deg); }
 
 .divider-bar {
   margin: 0 auto;
