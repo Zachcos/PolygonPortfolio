@@ -105,14 +105,15 @@ HEADER STYLES
 	position: relative;
 	width: 100%;
 	&::after {
+		background: inherit;
+		content: '';
 		height: 200px;
 		position: absolute;
-		width: 100%;
-		content: '';
-		background: inherit;
 		top: 80vh;
 		transform-origin: top right;
 		transform: skewY(-6deg);
+		width: 100%;
+		z-index: -1;
 	}
 	.fa-bars {
 		color: $white;
@@ -122,7 +123,11 @@ HEADER STYLES
 		font-size: 4.25rem;
 	}
 	.arrows {
-		max-width: 100px;
+		width: 40px;
+		position: absolute;
+		bottom: 70px;
+		left: 50%;
+		margin-left: -20px;
 	}
 	button {
 		background: rgba(255,255,255,0.85);
