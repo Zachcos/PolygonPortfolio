@@ -46,6 +46,7 @@ ul {
 	display: inline-block !important;
 }
 
+* {box-sizing: border-box;}
 .clearfix:after {
 	clear: both;
 	content: "";
@@ -92,6 +93,15 @@ UNIVERSAL STYLES
 			}
 		}
   }
+}
+
+.divider-bar {
+	margin: 0 auto;
+	width: 156px;
+	height: 6px;
+	border-radius: 15px;
+	&--light { background-color: $white; }
+	&--dark { background-color: $dark; }
 }
 
 /* --------------------------

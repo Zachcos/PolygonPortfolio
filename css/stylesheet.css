@@ -44,6 +44,9 @@ table {
 ul {
   display: inline-block !important; }
 
+* {
+  box-sizing: border-box; }
+
 .clearfix:after {
   clear: both;
   content: "";
@@ -79,6 +82,16 @@ UNIVERSAL STYLES
         background: inherit;
         transform-origin: top right;
         transform: skewY(-6deg); }
+
+.divider-bar {
+  margin: 0 auto;
+  width: 156px;
+  height: 6px;
+  border-radius: 15px; }
+  .divider-bar--light {
+    background-color: #ffffff; }
+  .divider-bar--dark {
+    background-color: #2e2f31; }
 
 /* --------------------------
 FONT STYLES
