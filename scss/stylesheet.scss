@@ -91,13 +91,6 @@ UNIVERSAL STYLES
 			&--light { background-color: $white; }
 			&--dark { background-color: $dark; }
 		}
-		.vert-divider-bar {
-			margin: 0 35px;
-			width: 1px;
-			height: 55px;
-			background: $white;
-			opacity: 0.2;
-		}
   }
 }
 
@@ -169,6 +162,27 @@ HEADER STYLES
 		margin: 0 auto;
 		text-align: center;
 		width: 50%;
+	}
+	.social-icons {
+		overflow: hidden;
+		width: 272px;
+		margin: 85px auto 0;
+		.fa-dribbble,
+		.fa-instagram,
+		.fa-envelope-o {
+			color: $white;
+			float: left;
+			font-size: 4.25rem;
+			display: inline;
+		}
+	}
+	.vert-divider-bar {
+		float: left;
+		margin: 0 35px;
+		width: 1px;
+		height: 55px;
+		background: $white;
+		opacity: 0.2;
 	}
 }
 

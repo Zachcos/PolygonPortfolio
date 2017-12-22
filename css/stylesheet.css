@@ -83,12 +83,6 @@ UNIVERSAL STYLES
         background-color: #ffffff; }
       #full-wrapper #container .horiz-divider-bar--dark {
         background-color: #2e2f31; }
-    #full-wrapper #container .vert-divider-bar {
-      margin: 0 35px;
-      width: 1px;
-      height: 55px;
-      background: #ffffff;
-      opacity: 0.2; }
 
 /* --------------------------
 HEADER STYLES
@@ -151,6 +145,24 @@ HEADER STYLES
     margin: 0 auto;
     text-align: center;
     width: 50%; }
+  .header .social-icons {
+    overflow: hidden;
+    width: 272px;
+    margin: 85px auto 0; }
+    .header .social-icons .fa-dribbble,
+    .header .social-icons .fa-instagram,
+    .header .social-icons .fa-envelope-o {
+      color: #ffffff;
+      float: left;
+      font-size: 4.25rem;
+      display: inline; }
+  .header .vert-divider-bar {
+    float: left;
+    margin: 0 35px;
+    width: 1px;
+    height: 55px;
+    background: #ffffff;
+    opacity: 0.2; }
 
 /* --------------------------
 FONT STYLES
