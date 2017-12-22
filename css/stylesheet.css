@@ -74,15 +74,21 @@ UNIVERSAL STYLES
     height: 100%;
     width: 100%;
     margin: 0 auto; }
-    #full-wrapper #container .divider-bar {
+    #full-wrapper #container .horiz-divider-bar {
       margin: 25px auto;
       width: 156px;
       height: 5px;
       border-radius: 15px; }
-      #full-wrapper #container .divider-bar--light {
+      #full-wrapper #container .horiz-divider-bar--light {
         background-color: #ffffff; }
-      #full-wrapper #container .divider-bar--dark {
+      #full-wrapper #container .horiz-divider-bar--dark {
         background-color: #2e2f31; }
+    #full-wrapper #container .vert-divider-bar {
+      margin: 0 35px;
+      width: 1px;
+      height: 55px;
+      background: #ffffff;
+      opacity: 0.2; }
 
 /* --------------------------
 HEADER STYLES

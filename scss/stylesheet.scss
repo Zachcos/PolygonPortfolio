@@ -83,13 +83,20 @@ UNIVERSAL STYLES
     height: 100%;
     width: 100%;
     margin: 0 auto;
-		.divider-bar {
+		.horiz-divider-bar {
 			margin: 25px auto;
 			width: 156px;
 			height: 5px;
 			border-radius: 15px;
 			&--light { background-color: $white; }
 			&--dark { background-color: $dark; }
+		}
+		.vert-divider-bar {
+			margin: 0 35px;
+			width: 1px;
+			height: 55px;
+			background: $white;
+			opacity: 0.2;
 		}
   }
 }
