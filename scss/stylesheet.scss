@@ -114,6 +114,12 @@ HEADER STYLES
 		transform-origin: top right;
 		transform: skewY(-6deg);
 	}
+	i {
+		color: $white;
+		left: 82px;
+		position: absolute;
+		top: 44px;
+	}
 	h1 {
 		color: white;
 		font-family: $bryant, Arial, sans-serif;

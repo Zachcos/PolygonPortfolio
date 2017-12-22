@@ -101,6 +101,11 @@ HEADER STYLES
     top: 80vh;
     transform-origin: top right;
     transform: skewY(-6deg); }
+  .header i {
+    color: #ffffff;
+    left: 82px;
+    position: absolute;
+    top: 44px; }
   .header h1 {
     color: white;
     font-family: "bryant", Arial, sans-serif;
