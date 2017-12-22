@@ -101,12 +101,14 @@ HEADER STYLES
     top: 80vh;
     transform-origin: top right;
     transform: skewY(-6deg); }
-  .header i {
+  .header .fa-bars {
     color: #ffffff;
     left: 82px;
     position: absolute;
     top: 44px;
     font-size: 4.25rem; }
+  .header .arrows {
+    max-width: 100px; }
   .header button {
     background: rgba(255, 255, 255, 0.85);
     border-radius: 7px;

@@ -114,12 +114,15 @@ HEADER STYLES
 		transform-origin: top right;
 		transform: skewY(-6deg);
 	}
-	i {
+	.fa-bars {
 		color: $white;
 		left: 82px;
 		position: absolute;
 		top: 44px;
 		font-size: 4.25rem;
+	}
+	.arrows {
+		max-width: 100px;
 	}
 	button {
 		background: rgba(255,255,255,0.85);
