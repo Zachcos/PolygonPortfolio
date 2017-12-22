@@ -100,12 +100,12 @@ UNIVERSAL STYLES
 HEADER STYLES
 -------------------------- */
 .header {
-	background: $dark;
+	background: url('../images/hero_bg.jpg') no-repeat top, $dark;
 	height: 100vh;
 	position: relative;
 	width: 100%;
 	&::after {
-		background: inherit;
+		background: $dark;
 		content: '';
 		height: 200px;
 		position: absolute;

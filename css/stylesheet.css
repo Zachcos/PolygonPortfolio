@@ -88,12 +88,12 @@ UNIVERSAL STYLES
 HEADER STYLES
 -------------------------- */
 .header {
-  background: #2e2f31;
+  background: url("../images/hero_bg.jpg") no-repeat top, #2e2f31;
   height: 100vh;
   position: relative;
   width: 100%; }
   .header::after {
-    background: inherit;
+    background: #2e2f31;
     content: '';
     height: 200px;
     position: absolute;
