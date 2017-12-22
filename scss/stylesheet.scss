@@ -187,6 +187,17 @@ HEADER STYLES
 }
 
 /* --------------------------
+LATEST WORK STYLES
+-------------------------- */
+.latest-work {
+	background: darkblue;
+	height: 500px;
+	position: relative;
+	width: 100%;
+	z-index: -100;
+}
+
+/* --------------------------
 FONT STYLES
 -------------------------- */
 @font-face {
