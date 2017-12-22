@@ -52,3 +52,25 @@ ul {
 	display: block;
 }
 /* END MEYER RESSET */
+
+/* --------------------------
+FONT STYLES
+-------------------------- */
+@font-face {
+    font-family: 'bryantregular';
+    src:  url('../fonts/bryant-bold-webfont.ttf') format('truetype'),
+          url('../fonts/bryant-bold-webfont.woff2') format('woff2'),
+          url('../fonts/bryant-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'acrombold';
+    src:  url('../fonts/acrom-bold-webfont') format('opentype'),
+          url('../fonts/acrom-bold-webfont') format('truetype'),
+          url('../fonts/acrom-bold-webfont.woff2') format('woff2'),
+          url('../fonts/acrom-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
