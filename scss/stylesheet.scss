@@ -192,32 +192,35 @@ HEADER STYLES
 /* --------------------------
 LATEST WORK STYLES
 -------------------------- */
-.latest-work-header {
-	background: $light;
-	height: 415px;
-	position: relative;
-	width: 100%;
-	z-index: -100;
-	&::after {
-		background: $white;
-		content: '';
-		height: 500px;
-		position: absolute;
-		top: 215px;
-		transform-origin: top right;
-		transform: skewY(-6deg);
+.latest-work {
+	&--header {
+		background: $light;
+		height: 415px;
+		position: relative;
 		width: 100%;
-		z-index: -1;
-	}
-	h2 {
-		color: $dark;
-		font-family: $bryant, Arial, sans-serif;
-		font-size: 3.0rem;
-		letter-spacing: 3px;
-		text-align: center;
-		text-transform: uppercase;
+		z-index: -100;
+		&::after {
+			background: $white;
+			content: '';
+			height: 500px;
+			position: absolute;
+			top: 215px;
+			transform-origin: top right;
+			transform: skewY(-6deg);
+			width: 100%;
+			z-index: -1;
+		}
+		h2 {
+			color: $dark;
+			font-family: $bryant, Arial, sans-serif;
+			font-size: 3.0rem;
+			letter-spacing: 3px;
+			text-align: center;
+			text-transform: uppercase;
+		}
 	}
 }
+
 
 /* --------------------------
 FONT STYLES
