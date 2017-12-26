@@ -209,8 +209,9 @@ LATEST WORK STYLES
 .latest-work-body {
   background: #b74336;
   height: 700px;
+  margin-top: -54px;
   position: relative;
-  width: 110%;
+  width: 100%;
   z-index: -10000; }
   .latest-work-body--panel {
     background: red;
