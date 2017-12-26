@@ -227,6 +227,23 @@ LATEST WORK STYLES
 /* --------------------------
 ABOUT ME STYLES
 -------------------------- */
+.about-me {
+  background: #61393c;
+  clear: both;
+  height: 100%;
+  width: 100%; }
+  .about-me h2 {
+    color: #ffffff;
+    display: block;
+    font-family: "bryant", Arial, sans-serif;
+    font-size: 3.0rem;
+    letter-spacing: 3px;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 100; }
+
 /* --------------------------
 FONT STYLES
 -------------------------- */
