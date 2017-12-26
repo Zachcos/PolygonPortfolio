@@ -94,6 +94,19 @@ UNIVERSAL STYLES
 		.skewPadding {
 			padding-top: 175px;
 		}
+		button {
+			background: rgba(255,255,255,0.85);
+			border-radius: 7px;
+			border: none;
+			color: $dark;
+			font-family: $bryant, Arial, sans-serif;
+			font-size: 1.25rem;
+			height: 50px;
+			letter-spacing: 2px;
+			text-decoration: none;
+			text-transform: uppercase;
+			width: 220px;
+		}
   }
 }
 
@@ -133,20 +146,9 @@ HEADER STYLES
 		margin-left: -20px;
 	}
 	button {
-		background: rgba(255,255,255,0.85);
-		border-radius: 7px;
-		border: none;
-		color: $dark;
-		font-family: $bryant, Arial, sans-serif;
-		font-size: 1.25rem;
-		height: 50px;
-		letter-spacing: 2px;
 		position: absolute;
 		right: 82px;
-		text-decoration: none;
-		text-transform: uppercase;
 		top: 44px;
-		width: 220px;
 	}
 	h1 {
 		color: white;
@@ -252,6 +254,10 @@ LATEST WORK STYLES
 		}
 	}
 }
+
+/* --------------------------
+ABOUT ME STYLES
+-------------------------- */
 
 
 /* --------------------------
