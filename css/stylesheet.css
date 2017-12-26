@@ -212,6 +212,15 @@ LATEST WORK STYLES
   background: #b74336;
   position: relative;
   z-index: -10000; }
+  .latest-work-body--panel {
+    float: left;
+    width: 50%;
+    height: 100%;
+    z-index: -9999;
+    position: relative;
+    background: red; }
+    .latest-work-body--panel:first-child {
+      background: blue !important; }
 
 /* --------------------------
 FONT STYLES

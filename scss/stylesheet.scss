@@ -239,6 +239,17 @@ LATEST WORK STYLES
 	background: $lightAccent;
 	position: relative;
 	z-index: -10000;
+	&--panel {
+		float: left;
+		width: 50%;
+		height: 100%;
+		z-index: -9999;
+		position: relative;
+		background: red;
+		&:first-child {
+			background: blue !important;
+		}
+	}
 }
 
 
