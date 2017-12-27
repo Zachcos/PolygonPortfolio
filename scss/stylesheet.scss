@@ -261,8 +261,48 @@ ABOUT ME STYLES
 .about-me {
 	background: $darkAccent;
 	clear: both;
-	height: 100%;
+	height: 600px;
 	width: 100%;
+	z-index: 100;
+	&:before {
+		background: inherit;
+		content: '';
+		height: 150px;
+		position: absolute;
+		transform-origin: top left;
+		transform: skewY(-6deg);
+		width: 100%;
+		z-index: -1;
+	}
+	.about-me--panel {
+		float: left;
+	}
+	.panel-left {
+		margin: 0 auto;
+		width: 50%;
+		img {
+			display: block;
+			margin: 0 auto;
+			width: 350px;
+		}
+	}
+	.panel-right {
+		color: $white;
+		font-family: $acrom, Arial, sans-serif;
+		font-size: 1.757rem;
+		padding-top: 40px;
+		text-align: center;
+		width: 30%;
+		p {
+			padding-bottom: 45px;
+			span {
+				color: $lightAccent
+			}
+		}
+		button {
+			margin-top: 45px;
+		}
+	}
 	h2 {
 		color: $white;
 		display: block;
@@ -274,6 +314,9 @@ ABOUT ME STYLES
 		text-align: center;
 		text-transform: uppercase;
 		z-index: 100;
+	}
+	img {
+		width: 40%;
 	}
 }
 
