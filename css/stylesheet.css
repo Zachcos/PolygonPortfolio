@@ -78,7 +78,9 @@ UNIVERSAL STYLES
       margin: 25px auto;
       width: 156px;
       height: 5px;
-      border-radius: 15px; }
+      border-radius: 15px;
+      position: relative;
+      z-index: 1000; }
       #full-wrapper #container .horiz-divider-bar--light {
         background-color: #ffffff; }
       #full-wrapper #container .horiz-divider-bar--dark {
@@ -338,7 +340,7 @@ CONTACT ME STYLES
     z-index: 10; }
   .contact .contact-form {
     width: 52%;
-    margin: 0 auto; }
+    margin: 75px auto 0 auto; }
     .contact .contact-form--left, .contact .contact-form--right {
       float: left;
       margin-bottom: 45px;

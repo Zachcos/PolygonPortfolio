@@ -88,6 +88,8 @@ UNIVERSAL STYLES
 			width: 156px;
 			height: 5px;
 			border-radius: 15px;
+			position: relative;
+			z-index: 1000;
 			&--light { background-color: $white; }
 			&--dark { background-color: $dark; }
 		}
@@ -386,7 +388,7 @@ CONTACT ME STYLES
 	}
 	.contact-form {
 		width: 52%;
-		margin: 0 auto;
+		margin: 75px auto 0 auto;
 		&--left,
 		&--right {
 			float: left;
