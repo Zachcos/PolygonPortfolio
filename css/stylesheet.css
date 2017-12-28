@@ -283,7 +283,7 @@ CONTACT ME STYLES
 -------------------------- */
 .contact {
   background: #2e2f31;
-  height: 650px;
+  height: 750px;
   width: 100%; }
   .contact:before {
     background: inherit;
@@ -382,6 +382,45 @@ CONTACT ME STYLES
       text-decoration: none;
       text-transform: uppercase;
       width: 220px; }
+
+/* --------------------------
+FOOTER STYLES
+-------------------------- */
+.footer {
+  background: #e8e8e8;
+  height: 150px;
+  width: 100%;
+  position: relative; }
+  .footer:before {
+    width: 100%;
+    background: inherit;
+    height: 150px;
+    content: '';
+    position: absolute;
+    transform-origin: top left;
+    transform: skewY(-6deg);
+    z-index: 1; }
+  .footer p {
+    padding-top: 120px;
+    text-align: center;
+    font-family: "bryant", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(46, 47, 49, 0.6); }
+  .footer .footer-nav {
+    text-align: right;
+    position: absolute;
+    bottom: 35px;
+    right: 15px;
+    line-height: 5rem;
+    z-index: 10000; }
+    .footer .footer-nav a {
+      font-family: "bryant", Arial, sans-serif;
+      font-size: 1.175rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-decoration: none;
+      color: #2e2f31; }
 
 /* --------------------------
 FONT STYLES
