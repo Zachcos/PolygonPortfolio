@@ -348,6 +348,97 @@ CONTACT ME STYLES
 		text-transform: uppercase;
 		z-index: 10;
 	}
+	.contact-form {
+		width: 52%;
+		margin: 0 auto;
+		&--left,
+		&--right {
+			float: left;
+			margin-bottom: 45px;
+			width: 45%;
+		}
+		&--left {
+			margin-right: 5%;
+		}
+		input[type="text"], textarea {
+			background: rgba(255,255,255,0.1);
+			border-radius: 4px;
+			border: none;
+			color: $white;
+			font-family: "acrom", Arial, sans-serif;
+			font-size: 1.175rem;
+			letter-spacing: 2px;
+			margin-bottom: 20px;
+			padding: 10px;
+			resize: none;
+			width: 100%;
+			&::placeholder {
+				color: $white;
+				text-transform: uppercase;
+			}
+		}
+		input[type="textarea"] {
+			height: 350px;
+		}
+		input[type="radio"]:not(old) {
+			margin: 0;
+			opacity: 0;
+			padding: 0;
+			width: 2rem;
+			& + label {
+				color: $white;
+				display: inline-block;
+				font-family: 'bryant', Arial, sans-serif;
+				font-size: 1.15rem;
+				letter-spacing: 4px;
+				line-height: 3.25rem;
+				margin-left: -2rem;
+				text-transform: uppercase;
+				& > span {
+					border-radius: 50%;
+					border: 1px solid $light;
+					display: inline-block;
+					height: 2rem;
+					margin: .25rem 1rem 1rem 0;
+					vertical-align: middle;
+					width: 2rem;
+				}
+			}
+			&:checked + label > span > span {
+				display: block;
+				width: .75rem;
+				height: .75rem;
+				margin: .525rem 0 0 .525rem;
+				border: 1px solid $lightAccent;
+				border-radius: 50%;
+				background: $lightAccent;
+			}
+		}
+		h3 {
+			color: $white;
+			font-family: 'bryant', Arial, sans-serif;
+			font-size: 1.5rem;
+			letter-spacing: 2px;
+			margin-top: 15px;
+			margin-bottom: 25px;
+			text-transform: uppercase;
+		}
+		input[type="submit"] {
+			background: rgba(255,255,255,0.85);
+			border-radius: 7px;
+			border: none;
+			color: $dark;
+			display: block;
+			font-family: $bryant, Arial, sans-serif;
+			font-size: 1.25rem;
+			height: 50px;
+			letter-spacing: 2px;
+			margin:0 auto;
+			text-decoration: none;
+			text-transform: uppercase;
+			width: 220px;
+		}
+	}
 }
 
 
