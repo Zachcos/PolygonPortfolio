@@ -261,7 +261,7 @@ ABOUT ME STYLES
 .about-me {
 	background: $darkAccent;
 	clear: both;
-	height: 600px;
+	height: 750px;
 	width: 100%;
 	z-index: 100;
 	&:before {
@@ -309,7 +309,7 @@ ABOUT ME STYLES
 		font-family: $bryant, Arial, sans-serif;
 		font-size: 3.0rem;
 		letter-spacing: 3px;
-		padding-top: 50px;
+		padding-top: 25px;
 		position: relative;
 		text-align: center;
 		text-transform: uppercase;
@@ -317,6 +317,36 @@ ABOUT ME STYLES
 	}
 	img {
 		width: 40%;
+	}
+}
+
+/* --------------------------
+CONTACT ME STYLES
+-------------------------- */
+.contact {
+	background: $dark;
+	height: 650px;
+	width: 100%;
+	&:before {
+		background: inherit;
+		content: '';
+		height: 150px;
+		position: absolute;
+		transform-origin: top left;
+		transform: skewY(-6deg);
+		width: 100%;
+		z-index: 0;
+	}
+	h2 {
+		color: $white;
+		font-family: 'bryant', Arial, sans-serif;
+		font-size: 3.0rem;
+		letter-spacing: 3px;
+		padding-top: 25px;
+		position: relative;
+		text-align: center;
+		text-transform: uppercase;
+		z-index: 10;
 	}
 }
 

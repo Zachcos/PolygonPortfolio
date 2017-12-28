@@ -230,7 +230,7 @@ ABOUT ME STYLES
 .about-me {
   background: #61393c;
   clear: both;
-  height: 600px;
+  height: 750px;
   width: 100%;
   z-index: 100; }
   .about-me:before {
@@ -270,13 +270,40 @@ ABOUT ME STYLES
     font-family: "bryant", Arial, sans-serif;
     font-size: 3.0rem;
     letter-spacing: 3px;
-    padding-top: 50px;
+    padding-top: 25px;
     position: relative;
     text-align: center;
     text-transform: uppercase;
     z-index: 100; }
   .about-me img {
     width: 40%; }
+
+/* --------------------------
+CONTACT ME STYLES
+-------------------------- */
+.contact {
+  background: #2e2f31;
+  height: 650px;
+  width: 100%; }
+  .contact:before {
+    background: inherit;
+    content: '';
+    height: 150px;
+    position: absolute;
+    transform-origin: top left;
+    transform: skewY(-6deg);
+    width: 100%;
+    z-index: 0; }
+  .contact h2 {
+    color: #ffffff;
+    font-family: 'bryant', Arial, sans-serif;
+    font-size: 3.0rem;
+    letter-spacing: 3px;
+    padding-top: 25px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 10; }
 
 /* --------------------------
 FONT STYLES
