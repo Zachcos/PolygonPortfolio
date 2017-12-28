@@ -215,14 +215,46 @@ LATEST WORK STYLES
   width: 100%;
   z-index: -10000; }
   .latest-work-body--panel {
-    background: red;
+    background: url("../images/bcs_fulldisplay.jpg") top no-repeat;
+    background-size: cover;
     float: left;
     height: 100%;
     position: relative;
     width: 50%;
     z-index: -9999; }
     .latest-work-body--panel:first-child {
-      background: blue !important; }
+      background: #ffffff; }
+      .latest-work-body--panel:first-child .title-num {
+        margin-right: 10px;
+        font-size: 2.5rem; }
+      .latest-work-body--panel:first-child h3 {
+        color: #2e2f31;
+        font-family: "bryant", Arial, sans-serif;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        margin: 0 auto 60px auto;
+        padding-top: 225px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 80%; }
+      .latest-work-body--panel:first-child p {
+        width: 55%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: "acrom", Arial, sans-serif;
+        font-size: 1.675rem;
+        color: #2e2f31;
+        line-height: 2rem; }
+      .latest-work-body--panel:first-child .web-link {
+        color: #2e2f31;
+        display: block;
+        font-family: "bryant", Arial, sans-serif;
+        font-size: 1.65rem;
+        letter-spacing: 3px;
+        margin: 75px auto 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+        width: 25%; }
 
 /* --------------------------
 ABOUT ME STYLES

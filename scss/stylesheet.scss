@@ -243,14 +243,50 @@ LATEST WORK STYLES
 	width: 100%;
 	z-index: -10000;
 	&--panel {
-		background: red;
+		background: url('../images/bcs_fulldisplay.jpg') top no-repeat;
+		background-size: cover;
 		float: left;
 		height: 100%;
 		position: relative;
 		width: 50%;
 		z-index: -9999;
 		&:first-child {
-			background: blue !important;
+			background: $white;
+			.title-num {
+				margin-right: 10px;
+				font-size: 2.5rem;
+			}
+			h3 {
+				color: $dark;
+				font-family: "bryant", Arial, sans-serif;
+				font-size: 2rem;
+				letter-spacing: 3px;
+				margin: 0 auto 60px auto;
+				padding-top: 225px;
+				text-align: center;
+				text-transform: uppercase;
+				width: 80%;
+			}
+			p {
+				width: 55%;
+				margin: 0 auto;
+				text-align: center;
+				font-family: "acrom", Arial, sans-serif;
+				font-size: 1.675rem;
+				color: $dark;
+				line-height: 2rem;
+			}
+			.web-link {
+				color: $dark;
+				display: block;
+				font-family: "bryant", Arial, sans-serif;
+				font-size: 1.65rem;
+				letter-spacing: 3px;
+				margin: 75px auto 0 auto;
+				text-align: center;
+				text-transform: uppercase;
+				width: 25%;
+			}
 		}
 	}
 }
