@@ -241,10 +241,10 @@ LATEST WORK STYLES
         padding: 0;
         width: 720px; }
     #latest-work .latest-work-body .panel-text {
-      background: #ffffff; }
+      background: #ffffff;
+      overflow: hidden; }
       #latest-work .latest-work-body .panel-text #text-slider {
         height: 100%;
-        overflow: hidden;
         width: 100%; }
         #latest-work .latest-work-body .panel-text #text-slider .text-slides {
           display: block;

@@ -277,9 +277,9 @@ LATEST WORK STYLES
 		}
 		.panel-text {
 			background: $white;
+			overflow: hidden;
 			#text-slider {
 				height: 100%;
-				overflow: hidden;
 				width: 100%;
 				.text-slides {
 					display: block;
@@ -335,7 +335,6 @@ LATEST WORK STYLES
 			}
 		}
 	}
-	
 	#slider-buttons {
 		background: red;
 		width: 500px;
