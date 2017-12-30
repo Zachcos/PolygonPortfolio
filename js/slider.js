@@ -7,11 +7,16 @@ $(function() {
   var animationSpeed = 1000;
   var pause = 3000;
   var currentSlide = 1;
+  var currentTextSlide = 1;
 
   // cache the DOM
   var $imageSlider = $('#image-slider');
   var $imageSlideContainer = $imageSlider.find('.image-slides');
   var $imageSlides = $imageSlideContainer.find('.image-slide');
+  var $textSlider  = $('#text-slider');
+  var $textSlideContainer = $textSlider.find('.text-slides');
+  var $textSlides = $textSlideContainer.find('.text-slide');
+
 
   var interval;
 
@@ -24,6 +29,15 @@ $(function() {
           $imageSlideContainer.css('margin-left', 0);
         }
       });
+
+      $textSlideContainer.animate({'top': '-='+width}, animationSpeed, function() {
+      currentTextSlide++;
+      if (currentSlide === $imageSlides.length) {
+          currentTextSlide = 1;
+          $textSlideContainer.css({'top': 0});
+        }
+      });
+
     }, pause);
   }
 
