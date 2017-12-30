@@ -32,7 +32,7 @@ $(function() {
 
       $textSlideContainer.animate({'top': '-='+width}, animationSpeed, function() {
       currentTextSlide++;
-      if (currentSlide === $imageSlides.length) {
+      if (currentTextSlide === $imageSlides.length) {
           currentTextSlide = 1;
           $textSlideContainer.css({'top': 0});
         }
