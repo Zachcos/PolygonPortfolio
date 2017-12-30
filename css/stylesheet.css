@@ -173,8 +173,9 @@ HEADER STYLES
 LATEST WORK STYLES
 -------------------------- */
 #latest-work {
-  height: 930px;
-  position: relative; }
+  height: 870px;
+  position: relative;
+  z-index: -10001; }
   #latest-work .latest-work-header {
     background: #e8e8e8;
     height: 200px;
@@ -289,22 +290,27 @@ LATEST WORK STYLES
         letter-spacing: 3px;
         margin: 75px auto 0 auto;
         text-align: center;
+        text-decoration: none;
         text-transform: uppercase;
         width: 25%; }
-  #latest-work #slider-buttons {
-    margin: 15px auto 0;
-    position: relative;
-    width: 125px; }
-    #latest-work #slider-buttons .fa-angle-left,
-    #latest-work #slider-buttons .fa-angle-right {
-      color: #ffffff;
-      display: block;
-      float: left;
-      font-size: 5rem; }
-    #latest-work #slider-buttons .fa-angle-left {
-      visibility: hidden; }
-    #latest-work #slider-buttons .fa-angle-right {
-      float: right; }
+
+/* --------------------------
+SLIDER BUTTON STYLES
+-------------------------- */
+#slider-buttons {
+  margin: 0 auto;
+  position: relative;
+  width: 125px; }
+  #slider-buttons .fa-angle-left,
+  #slider-buttons .fa-angle-right {
+    color: #ffffff;
+    display: block;
+    float: left;
+    font-size: 5rem; }
+  #slider-buttons .fa-angle-left {
+    visibility: hidden; }
+  #slider-buttons .fa-angle-right {
+    float: right; }
 
 /* --------------------------
 ABOUT ME STYLES
@@ -323,7 +329,7 @@ ABOUT ME STYLES
     transform-origin: top left;
     transform: skewY(-6deg);
     width: 100%;
-    z-index: -1; }
+    z-index: -300; }
   .about-me .about-me--panel {
     float: left; }
   .about-me .panel-left {

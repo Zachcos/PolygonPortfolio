@@ -197,8 +197,9 @@ HEADER STYLES
 LATEST WORK STYLES
 -------------------------- */
 #latest-work {
-	height: 930px;
+	height: 870px;
 	position: relative;
+	z-index: -10001;
 	.latest-work-header {
 		background: $light;
 		height: 200px;
@@ -330,27 +331,31 @@ LATEST WORK STYLES
 				letter-spacing: 3px;
 				margin: 75px auto 0 auto;
 				text-align: center;
+				text-decoration: none;
 				text-transform: uppercase;
 				width: 25%;
 			}
 		}
 	}
-	#slider-buttons {
-		margin: 15px auto 0;
-		position: relative;
-		width: 125px;
-		.fa-angle-left,
-		.fa-angle-right {
-			color: #ffffff;
-			display: block;
-			float: left;
-			font-size: 5rem;
-		}
-		.fa-angle-left { visibility: hidden; }
-		.fa-angle-right { float: right; }
-	}
 }
 
+/* --------------------------
+SLIDER BUTTON STYLES
+-------------------------- */
+#slider-buttons {
+	margin: 0 auto;
+	position: relative;
+	width: 125px;
+	.fa-angle-left,
+	.fa-angle-right {
+		color: #ffffff;
+		display: block;
+		float: left;
+		font-size: 5rem;
+	}
+	.fa-angle-left { visibility: hidden; }
+	.fa-angle-right { float: right; }
+}
 
 /* --------------------------
 ABOUT ME STYLES
@@ -369,7 +374,7 @@ ABOUT ME STYLES
 		transform-origin: top left;
 		transform: skewY(-6deg);
 		width: 100%;
-		z-index: -1;
+		z-index: -300;
 	}
 	.about-me--panel {
 		float: left;
