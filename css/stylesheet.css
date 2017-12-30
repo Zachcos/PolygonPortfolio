@@ -172,124 +172,133 @@ HEADER STYLES
 /* --------------------------
 LATEST WORK STYLES
 -------------------------- */
-.latest-work-header {
-  background: #e8e8e8;
-  height: 200px;
-  position: relative;
-  width: 100%;
-  z-index: -100; }
-  .latest-work-header:before {
-    background: inherit;
-    content: '';
-    height: 10px;
-    margin-top: -15px;
-    position: absolute;
-    transform-origin: top left;
-    transform: skewY(-6deg);
-    width: 100%; }
-  .latest-work-header:after {
-    background: inherit;
-    bottom: 0;
-    content: '';
+#latest-work {
+  height: 930px;
+  position: relative; }
+  #latest-work .latest-work-header {
+    background: #e8e8e8;
     height: 200px;
-    position: absolute;
-    transform-origin: top right;
-    transform: skewY(-6deg);
+    position: relative;
     width: 100%;
-    z-index: -200; }
-  .latest-work-header h2 {
-    color: #2e2f31;
-    display: block;
-    font-family: "bryant", Arial, sans-serif;
-    font-size: 3.0rem;
-    letter-spacing: 3px;
-    padding-top: 165px;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    z-index: 100; }
-
-.latest-work-body {
-  background: #b74336;
-  height: 775px;
-  margin-top: -54px;
-  position: relative;
-  width: 100%;
-  z-index: -10000; }
-  .latest-work-body--panel {
-    float: left;
-    height: 100%;
-    position: relative;
-    width: 50%;
-    z-index: -9999; }
-  .latest-work-body .panel-image #image-slider {
-    height: 100%;
-    overflow: hidden;
-    width: 100%; }
-    .latest-work-body .panel-image #image-slider .image-slides {
+    z-index: -100; }
+    #latest-work .latest-work-header:before {
+      background: inherit;
+      content: '';
+      height: 10px;
+      margin-top: -15px;
+      position: absolute;
+      transform-origin: top left;
+      transform: skewY(-6deg);
+      width: 100%; }
+    #latest-work .latest-work-header:after {
+      background: inherit;
+      bottom: 0;
+      content: '';
+      height: 200px;
+      position: absolute;
+      transform-origin: top right;
+      transform: skewY(-6deg);
+      width: 100%;
+      z-index: -200; }
+    #latest-work .latest-work-header h2 {
+      color: #2e2f31;
       display: block;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      width: 3600px; }
-    .latest-work-body .panel-image #image-slider .image-slide {
+      font-family: "bryant", Arial, sans-serif;
+      font-size: 3.0rem;
+      letter-spacing: 3px;
+      padding-top: 165px;
+      position: relative;
+      text-align: center;
+      text-transform: uppercase;
+      z-index: 100; }
+  #latest-work .latest-work-body {
+    background: #b74336;
+    height: 700px;
+    margin-top: -54px;
+    position: relative;
+    width: 100%;
+    z-index: -10000; }
+    #latest-work .latest-work-body--panel {
       float: left;
-      height: 1000px;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      width: 720px; }
-  .latest-work-body .panel-text {
-    background: #ffffff; }
-    .latest-work-body .panel-text #text-slider {
       height: 100%;
+      position: relative;
+      width: 50%;
+      z-index: -9999; }
+    #latest-work .latest-work-body .panel-image #image-slider {
       overflow: hidden;
       width: 100%; }
-      .latest-work-body .panel-text #text-slider .text-slides {
+      #latest-work .latest-work-body .panel-image #image-slider .image-slides {
         display: block;
-        height: 3600px;
+        height: 100%;
         margin: 0;
         padding: 0;
-        position: absolute;
-        top: 0;
-        width: 100%; }
-      .latest-work-body .panel-text #text-slider .text-slide {
+        width: 3600px; }
+      #latest-work .latest-work-body .panel-image #image-slider .image-slide {
+        float: left;
         height: 720px;
         list-style-type: none;
         margin: 0;
         padding: 0;
         width: 720px; }
-    .latest-work-body .panel-text .title-num {
-      margin-right: 10px;
-      font-size: 2.5rem; }
-    .latest-work-body .panel-text h3 {
-      color: #2e2f31;
-      font-family: "bryant", Arial, sans-serif;
-      font-size: 2rem;
-      letter-spacing: 3px;
-      margin: 0 auto 60px auto;
-      padding-top: 275px;
-      text-align: center;
-      text-transform: uppercase;
-      width: 80%; }
-    .latest-work-body .panel-text p {
-      width: 55%;
-      margin: 0 auto;
-      text-align: center;
-      font-family: "acrom", Arial, sans-serif;
-      font-size: 1.675rem;
-      color: #2e2f31;
-      line-height: 2rem; }
-    .latest-work-body .panel-text .web-link {
-      color: #2e2f31;
-      display: block;
-      font-family: "bryant", Arial, sans-serif;
-      font-size: 1.65rem;
-      letter-spacing: 3px;
-      margin: 75px auto 0 auto;
-      text-align: center;
-      text-transform: uppercase;
-      width: 25%; }
+    #latest-work .latest-work-body .panel-text {
+      background: #ffffff; }
+      #latest-work .latest-work-body .panel-text #text-slider {
+        height: 100%;
+        overflow: hidden;
+        width: 100%; }
+        #latest-work .latest-work-body .panel-text #text-slider .text-slides {
+          display: block;
+          height: 3600px;
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          top: 0;
+          width: 100%; }
+        #latest-work .latest-work-body .panel-text #text-slider .text-slide {
+          height: 720px;
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          width: 720px; }
+      #latest-work .latest-work-body .panel-text .title-num {
+        margin-right: 10px;
+        font-size: 2.5rem; }
+      #latest-work .latest-work-body .panel-text h3 {
+        color: #2e2f31;
+        font-family: "bryant", Arial, sans-serif;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        margin: 0 auto 60px auto;
+        padding-top: 275px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 80%; }
+      #latest-work .latest-work-body .panel-text p {
+        width: 55%;
+        margin: 0 auto;
+        text-align: center;
+        font-family: "acrom", Arial, sans-serif;
+        font-size: 1.675rem;
+        color: #2e2f31;
+        line-height: 2rem; }
+      #latest-work .latest-work-body .panel-text .web-link {
+        color: #2e2f31;
+        display: block;
+        font-family: "bryant", Arial, sans-serif;
+        font-size: 1.65rem;
+        letter-spacing: 3px;
+        margin: 75px auto 0 auto;
+        text-align: center;
+        text-transform: uppercase;
+        width: 25%; }
+  #latest-work #slider-buttons {
+    background: red;
+    width: 500px;
+    height: 250px;
+    z-index: 10000000;
+    position: relative;
+    top: 500px;
+    left: 500px; }
 
 /* --------------------------
 ABOUT ME STYLES
