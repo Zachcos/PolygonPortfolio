@@ -6,9 +6,6 @@ $(function() {
   var width = 720;
   var animationSpeed = 750;
   var currentSlide = 1;
-  // var currentTextSlide = 1;
-  // var pause = 5000;
-  
 
   // cache the DOM
   var $imageSlider = $('#image-slider');
