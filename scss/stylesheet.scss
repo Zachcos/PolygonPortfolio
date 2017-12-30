@@ -252,18 +252,18 @@ LATEST WORK STYLES
 		z-index: -9999;
 	}
 	.panel-image {
-		#slider {
+		#image-slider {
 			width: 100%;
 			height: 100%;
 			overflow: hidden;
-			.slides {
+			.image-slides {
 				display: block !important;
 				width: 3600px;
 				height: 100%;
 				margin: 0;
 				padding: 0;
 			}
-			.slide {
+			.image-slide {
 				float: left !important;
 				list-style-type: none;
 				margin: 0;

@@ -9,19 +9,19 @@ $(function() {
   var currentSlide = 1;
 
   // cache the DOM
-  var $slider = $('#slider');
-  var $slideContainer = $slider.find('.slides');
-  var $slides = $slideContainer.find('.slide');
+  var $imageSlider = $('#image-slider');
+  var $imageSlideContainer = $imageSlider.find('.image-slides');
+  var $imageSlides = $imageSlideContainer.find('.image-slide');
 
   var interval;
 
   function startSlider() {
     interval = setInterval(function() {
-      $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
+      $imageSlideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
         currentSlide++;
-        if (currentSlide === $slides.length) {
+        if (currentSlide === $imageSlides.length) {
           currentSlide = 1;
-          $slideContainer.css('margin-left', 0);
+          $imageSlideContainer.css('margin-left', 0);
         }
       });
     }, pause);
@@ -31,7 +31,7 @@ $(function() {
     clearInterval(interval);
   }
 
-  $slider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
+  $imageSlider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
 
   startSlider();
 
