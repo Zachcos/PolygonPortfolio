@@ -5,7 +5,7 @@ $(function() {
   // configuration
   var width = 720;
   var animationSpeed = 1000;
-  var pause = 3000;
+  var pause = 5000;
   var currentSlide = 1;
   var currentTextSlide = 1;
 
