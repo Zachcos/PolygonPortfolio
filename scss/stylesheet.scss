@@ -115,12 +115,15 @@ UNIVERSAL STYLES
 			letter-spacing: 2px;
 			text-decoration: none;
 			text-transform: uppercase;
+			transition: .25s all ease;
 			width: 220px;
+			&:hover {
+				background: rgba($lightAccent, 0.85);
+				color: $white
+			}
 		}
   }
 }
-
-
 
 /* --------------------------
 HEADER STYLES
@@ -161,7 +164,7 @@ HEADER STYLES
 		top: 44px;
 	}
 	h1 {
-		color: white;
+		color: $white;
 		font-family: $bryant, Arial, sans-serif;
 		font-size: 5rem;
 		letter-spacing: 4px;
@@ -189,6 +192,10 @@ HEADER STYLES
 			display: inline;
 			float: left;
 			font-size: 4.25rem;
+			transition: .25s all ease;
+			&:hover {
+				color: $lightAccent;
+			}
 		}
 	}
 }
@@ -348,7 +355,7 @@ SLIDER BUTTON STYLES
 	width: 125px;
 	.fa-angle-left,
 	.fa-angle-right {
-		color: #ffffff;
+		color: $white;
 		display: block;
 		float: left;
 		font-size: 5rem;
@@ -525,20 +532,9 @@ CONTACT ME STYLES
 			margin-bottom: 25px;
 			text-transform: uppercase;
 		}
-		input[type="submit"] {
-			background: rgba($white,0.85);
-			border-radius: 7px;
-			border: none;
-			color: $dark;
+		button {
 			display: block;
-			font-family: $bryant, Arial, sans-serif;
-			font-size: 1.25rem;
-			height: 50px;
-			letter-spacing: 2px;
-			margin:0 auto;
-			text-decoration: none;
-			text-transform: uppercase;
-			width: 220px;
+			margin: 0 auto;
 		}
 	}
 }
@@ -550,40 +546,52 @@ FOOTER STYLES
 .footer {
 	background: $light;
 	height: 150px;
-	width: 100%;
 	position: relative;
+	width: 100%;
 	&:before {
-		width: 100%;
 		background: inherit;
-		height: 150px;
 		content: '';
+		height: 150px;
 		position: absolute;
 		transform-origin: top left;
 		transform: skewY(-6deg);
+		width: 100%;
 		z-index: 1;
 	}
 	p {
+		color: rgba($dark, 0.6);
+		font-family: "bryant", Arial, sans-serif;
+		letter-spacing: 2px;
 		padding-top: 120px;
 		text-align: center;
-		font-family: "bryant", Arial, sans-serif;
 		text-transform: uppercase;
-		letter-spacing: 2px;
-		color: rgba($dark, 0.6);
+		a {
+			color: inherit;
+			text-decoration: none;
+			transition: .25s all ease;
+			&:hover{
+				color: $dark;
+			}
+		}
 	}
 	.footer-nav {
-		text-align: right;
-		position: absolute;
 		bottom: 35px;
-		right: 15px;
 		line-height: 5rem;
+		position: absolute;
+		right: 15px;
+		text-align: right;
 		z-index: 10000;
 		a {
+			color: $dark;
 			font-family: "bryant", Arial, sans-serif;
 			font-size: 1.175rem;
-			text-transform: uppercase;
 			letter-spacing: 3px;
 			text-decoration: none;
-			color: $dark
+			text-transform: uppercase;
+			transition: .25s all ease;
+			&:hover {
+				color: $lightAccent;
+			}
 		}
 	}
 }
