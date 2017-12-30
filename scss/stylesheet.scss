@@ -252,8 +252,26 @@ LATEST WORK STYLES
 		z-index: -9999;
 	}
 	.panel-image {
-		background: url('../images/bcs_fulldisplay.jpg') top no-repeat;
-		background-size: cover;
+		#slider {
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			.slides {
+				display: block !important;
+				width: 2880px;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			.slide {
+				float: left !important;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				width: 720px;
+				height: 1000px;
+			}
+		}
 	}
 	.panel-desc {
 		background: $white;

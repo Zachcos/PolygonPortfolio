@@ -222,9 +222,23 @@ LATEST WORK STYLES
     position: relative;
     width: 50%;
     z-index: -9999; }
-  .latest-work-body .panel-image {
-    background: url("../images/bcs_fulldisplay.jpg") top no-repeat;
-    background-size: cover; }
+  .latest-work-body .panel-image #slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+    .latest-work-body .panel-image #slider .slides {
+      display: block !important;
+      width: 2880px;
+      height: 100%;
+      margin: 0;
+      padding: 0; }
+    .latest-work-body .panel-image #slider .slide {
+      float: left !important;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 720px;
+      height: 1000px; }
   .latest-work-body .panel-desc {
     background: #ffffff; }
     .latest-work-body .panel-desc .title-num {
