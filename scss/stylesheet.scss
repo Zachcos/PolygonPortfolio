@@ -53,27 +53,22 @@ html { font-size: 75%; }
 	content: "";
 	display: block;
 }
-/* END MEYER RESSET */
+// ----- END MEYER RESET ----- //
 
-/* --------------------------
-COLOR STYLES
--------------------------- */
+
+// ----- COLOR STYLES ----- //
 $white: #ffffff;
 $light: #e8e8e8;
 $dark: #2e2f31;
 $lightAccent: #b74336;
 $darkAccent: #61393c;
 
-/* --------------------------
-FONT STYLES
--------------------------- */
+// ----- FONT STYLES ----- //
 $bryant: 'bryant';
 $acrom: 'acrom';
 
 
-/* --------------------------
-UNIVERSAL STYLES
--------------------------- */
+// ----- UNIVERSAL STYLES ----- //
 #full-wrapper {
   height: 100%;
   position: absolute;
@@ -125,9 +120,7 @@ UNIVERSAL STYLES
   }
 }
 
-/* --------------------------
-HEADER STYLES
--------------------------- */
+// ----- HEADER STYLES ----- //
 .header {
 	background: url('../images/hero_bg.jpg') no-repeat top, $dark;
 	height: 100vh;
@@ -200,9 +193,7 @@ HEADER STYLES
 	}
 }
 
-/* --------------------------
-LATEST WORK STYLES
--------------------------- */
+// ----- LATEST WORK STYLES ----- //
 #latest-work {
 	height: 870px;
 	position: relative;
@@ -346,9 +337,7 @@ LATEST WORK STYLES
 	}
 }
 
-/* --------------------------
-SLIDER BUTTON STYLES
--------------------------- */
+// ----- SLIDER BUTTONS STYLES ----- //
 #slider-buttons {
 	margin: 0 auto;
 	position: relative;
@@ -364,9 +353,7 @@ SLIDER BUTTON STYLES
 	.fa-angle-right { float: right; }
 }
 
-/* --------------------------
-ABOUT ME STYLES
--------------------------- */
+// ----- ABOUT ME STYLES ----- //
 .about-me {
 	background: $darkAccent;
 	clear: both;
@@ -429,9 +416,7 @@ ABOUT ME STYLES
 	}
 }
 
-/* --------------------------
-CONTACT ME STYLES
--------------------------- */
+// ----- CONTACT ME STYLES ----- //
 .contact {
 	background: $dark;
 	height: 750px;
@@ -540,9 +525,7 @@ CONTACT ME STYLES
 }
 
 
-/* --------------------------
-FOOTER STYLES
--------------------------- */
+// ----- FOOTER STYLES ----- //
 .footer {
 	background: $light;
 	height: 150px;
@@ -596,9 +579,7 @@ FOOTER STYLES
 	}
 }
 
-/* --------------------------
-FONT STYLES
--------------------------- */
+// ----- FONT STYLES ----- //
 @font-face {
     font-family: 'bryant';
     src:  url('../fonts/bryant-bold-webfont.ttf') format('truetype'),

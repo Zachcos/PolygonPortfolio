@@ -55,16 +55,6 @@ html {
   content: "";
   display: block; }
 
-/* END MEYER RESSET */
-/* --------------------------
-COLOR STYLES
--------------------------- */
-/* --------------------------
-FONT STYLES
--------------------------- */
-/* --------------------------
-UNIVERSAL STYLES
--------------------------- */
 #full-wrapper {
   height: 100%;
   position: absolute;
@@ -111,9 +101,6 @@ UNIVERSAL STYLES
         background: rgba(183, 67, 54, 0.85);
         color: #ffffff; }
 
-/* --------------------------
-HEADER STYLES
--------------------------- */
 .header {
   background: url("../images/hero_bg.jpg") no-repeat top, #2e2f31;
   height: 100vh;
@@ -178,9 +165,6 @@ HEADER STYLES
       .header .social-icons .fa-envelope-o:hover {
         color: #b74336; }
 
-/* --------------------------
-LATEST WORK STYLES
--------------------------- */
 #latest-work {
   height: 870px;
   position: relative;
@@ -303,9 +287,6 @@ LATEST WORK STYLES
         text-transform: uppercase;
         width: 25%; }
 
-/* --------------------------
-SLIDER BUTTON STYLES
--------------------------- */
 #slider-buttons {
   margin: 0 auto;
   position: relative;
@@ -321,9 +302,6 @@ SLIDER BUTTON STYLES
   #slider-buttons .fa-angle-right {
     float: right; }
 
-/* --------------------------
-ABOUT ME STYLES
--------------------------- */
 .about-me {
   background: #61393c;
   clear: both;
@@ -375,9 +353,6 @@ ABOUT ME STYLES
   .about-me img {
     width: 40%; }
 
-/* --------------------------
-CONTACT ME STYLES
--------------------------- */
 .contact {
   background: #2e2f31;
   height: 750px;
@@ -469,9 +444,6 @@ CONTACT ME STYLES
       display: block;
       margin: 0 auto; }
 
-/* --------------------------
-FOOTER STYLES
--------------------------- */
 .footer {
   background: #e8e8e8;
   height: 150px;
@@ -517,9 +489,6 @@ FOOTER STYLES
       .footer .footer-nav a:hover {
         color: #b74336; }
 
-/* --------------------------
-FONT STYLES
--------------------------- */
 @font-face {
   font-family: 'bryant';
   src: url("../fonts/bryant-bold-webfont.ttf") format("truetype"), url("../fonts/bryant-bold-webfont.woff2") format("woff2"), url("../fonts/bryant-bold-webfont.woff") format("woff");
