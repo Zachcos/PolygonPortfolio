@@ -4,10 +4,11 @@ $(function() {
 
   // configuration
   var width = 720;
-  var animationSpeed = 1000;
-  var pause = 5000;
+  var animationSpeed = 750;
   var currentSlide = 1;
-  var currentTextSlide = 1;
+  // var currentTextSlide = 1;
+  // var pause = 5000;
+  
 
   // cache the DOM
   var $imageSlider = $('#image-slider');
@@ -16,37 +17,36 @@ $(function() {
   var $textSlider  = $('#text-slider');
   var $textSlideContainer = $textSlider.find('.text-slides');
   var $textSlides = $textSlideContainer.find('.text-slide');
+  var $leftButton = $('.fa-angle-left');
+  var $rightButton = $('.fa-angle-right');
 
+  $rightButton.click(function() {
+    $imageSlideContainer.animate({'margin-left': '-='+width}, animationSpeed)
+    $textSlideContainer.animate({'top': '-='+width}, animationSpeed, function() {
+      currentSlide++;
+      checkButtons();
+    })
+  });
 
-  var interval;
+  $leftButton.click(function() {
+    $imageSlideContainer.animate({'margin-left': '+='+width}, animationSpeed)
+    $textSlideContainer.animate({'top': '+='+width}, animationSpeed, function() {
+      currentSlide--;
+      checkButtons();
+    })
+  });
 
-  function startSlider() {
-    interval = setInterval(function() {
-      $imageSlideContainer.animate({'margin-left': '-='+width}, animationSpeed, function() {
-        currentSlide++;
-        if (currentSlide === $imageSlides.length) {
-          currentSlide = 1;
-          $imageSlideContainer.css('margin-left', 0);
-        }
-      });
-
-      $textSlideContainer.animate({'top': '-='+width}, animationSpeed, function() {
-      currentTextSlide++;
-      if (currentTextSlide === $imageSlides.length) {
-          currentTextSlide = 1;
-          $textSlideContainer.css({'top': 0});
-        }
-      });
-
-    }, pause);
+  function checkButtons() {
+    if (currentSlide === 1) {
+      $leftButton.css('visibility', 'hidden')
+      $rightButton.css('visibility', 'visible')
+    } else if (currentSlide === $imageSlides.length) {
+      $leftButton.css('visibility', 'visible')
+      $rightButton.css('visibility', 'hidden')
+    } else {
+      $leftButton.css('visibility', 'visible')
+      $rightButton.css('visibility', 'visible')
+    }
   }
-
-  function stopSlider() {
-    clearInterval(interval);
-  }
-
-  $imageSlider.on('mouseenter', stopSlider).on('mouseleave', startSlider);
-
-  startSlider();
 
 });

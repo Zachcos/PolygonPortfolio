@@ -93,6 +93,14 @@ UNIVERSAL STYLES
 			&--light { background-color: $white; }
 			&--dark { background-color: $dark; }
 		}
+		.vert-divider-bar {
+			background: $white;
+			float: left;
+			height: 55px;
+			margin: 0 35px;
+			opacity: 0.2;
+			width: 1px;
+		}
 		.skewPadding {
 			padding-top: 175px;
 		}
@@ -182,14 +190,6 @@ HEADER STYLES
 			float: left;
 			font-size: 4.25rem;
 		}
-	}
-	.vert-divider-bar {
-		background: $white;
-		float: left;
-		height: 55px;
-		margin: 0 35px;
-		opacity: 0.2;
-		width: 1px;
 	}
 }
 
@@ -336,13 +336,18 @@ LATEST WORK STYLES
 		}
 	}
 	#slider-buttons {
-		background: red;
-		width: 500px;
-		height: 250px;
-		z-index: 10000000;
+		margin: 15px auto 0;
 		position: relative;
-		top: 500px;
-		left: 500px;
+		width: 125px;
+		.fa-angle-left,
+		.fa-angle-right {
+			color: #ffffff;
+			display: block;
+			float: left;
+			font-size: 5rem;
+		}
+		.fa-angle-left { visibility: hidden; }
+		.fa-angle-right { float: right; }
 	}
 }
 
