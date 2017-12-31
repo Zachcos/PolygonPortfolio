@@ -217,7 +217,7 @@ html, body {
     z-index: -10000; }
     #latest-work .latest-work-body--panel {
       float: left;
-      height: 100%;
+      height: 800px;
       position: relative;
       width: 50%;
       z-index: -9999; }
@@ -244,7 +244,6 @@ html, body {
         height: 100%;
         width: 100%; }
         #latest-work .latest-work-body .panel-text #text-slider .text-slides {
-          display: block;
           height: 3600px;
           margin: 0;
           padding: 0;
@@ -293,7 +292,9 @@ html, body {
 #slider-buttons {
   margin: 0 auto;
   position: relative;
-  width: 125px; }
+  top: -65px;
+  width: 125px;
+  z-index: 1000000; }
   #slider-buttons .fa-angle-left,
   #slider-buttons .fa-angle-right {
     color: #ffffff;
@@ -309,6 +310,9 @@ html, body {
   background: #61393c;
   clear: both;
   height: 750px;
+  margin-top: -200px;
+  position: relative;
+  top: -62px;
   width: 100%;
   z-index: 100; }
   .about-me:before {
