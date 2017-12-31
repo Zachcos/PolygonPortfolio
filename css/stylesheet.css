@@ -55,6 +55,9 @@ html {
   content: "";
   display: block; }
 
+html, body {
+  background: #2e2f31; }
+
 #full-wrapper {
   height: 100%;
   position: absolute;
@@ -62,7 +65,7 @@ html {
   #full-wrapper #container {
     position: relative;
     height: 100%;
-    width: 100%;
+    max-width: 1440px;
     margin: 0 auto; }
     #full-wrapper #container .horiz-divider-bar {
       margin: 25px auto;
@@ -103,7 +106,7 @@ html {
 
 .header {
   background: url("../images/hero_bg.jpg") no-repeat top, #2e2f31;
-  height: 100vh;
+  height: 800px;
   position: relative;
   width: 100%; }
   .header::after {
@@ -111,7 +114,7 @@ html {
     content: '';
     height: 200px;
     position: absolute;
-    top: 80vh;
+    top: 645px;
     transform-origin: top right;
     transform: skewY(-6deg);
     width: 100%;
@@ -151,7 +154,7 @@ html {
   .header .social-icons {
     margin: 85px auto 0;
     overflow: hidden;
-    width: 272px; }
+    width: 282px; }
     .header .social-icons .fa-dribbble,
     .header .social-icons .fa-instagram,
     .header .social-icons .fa-envelope-o {
@@ -311,7 +314,7 @@ html {
   .about-me:before {
     background: inherit;
     content: '';
-    height: 150px;
+    height: 200px;
     position: absolute;
     transform-origin: top left;
     transform: skewY(-6deg);
@@ -360,7 +363,7 @@ html {
   .contact:before {
     background: inherit;
     content: '';
-    height: 150px;
+    height: 200px;
     position: absolute;
     transform-origin: top left;
     transform: skewY(-6deg);
@@ -452,7 +455,7 @@ html {
   .footer:before {
     background: inherit;
     content: '';
-    height: 150px;
+    height: 152px;
     position: absolute;
     transform-origin: top left;
     transform: skewY(-6deg);
