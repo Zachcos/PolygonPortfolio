@@ -310,9 +310,8 @@ html, body {
   background: #61393c;
   clear: both;
   height: 750px;
-  margin-top: -200px;
   position: relative;
-  top: -62px;
+  top: -65px;
   width: 100%;
   z-index: 100; }
   .about-me:before {
@@ -363,7 +362,10 @@ html, body {
 .contact {
   background: #2e2f31;
   height: 750px;
-  width: 100%; }
+  position: relative;
+  top: -75px;
+  width: 100%;
+  z-index: 100; }
   .contact:before {
     background: inherit;
     content: '';
@@ -372,7 +374,7 @@ html, body {
     transform-origin: top left;
     transform: skewY(-6deg);
     width: 100%;
-    z-index: 0; }
+    z-index: 10; }
   .contact h2 {
     color: #ffffff;
     font-family: 'bryant', Arial, sans-serif;
