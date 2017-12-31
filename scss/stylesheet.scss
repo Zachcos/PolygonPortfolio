@@ -549,7 +549,7 @@ html, body {
 		transform-origin: top left;
 		transform: skewY(-6deg);
 		width: 100%;
-		z-index: 1;
+		z-index: 10000;
 	}
 	p {
 		color: rgba($dark, 0.6);

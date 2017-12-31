@@ -466,7 +466,7 @@ html, body {
     transform-origin: top left;
     transform: skewY(-6deg);
     width: 100%;
-    z-index: 1; }
+    z-index: 10000; }
   .footer p {
     color: rgba(46, 47, 49, 0.6);
     font-family: "bryant", Arial, sans-serif;
